@@ -1,3 +1,4 @@
+![Project Workflow](results/banner.gif)
 # FTIR Backward Compatibility – Calibration Set & Machine Learning Framework
 
 ## 📌 Overview
