@@ -88,8 +88,8 @@ The work was conducted during an internship at **Si-Ware Systems** under the sup
 
 ## 📷 Suggested Images to Include
 ### Spectra – Glass vs Plastic Holders
-![Spectra in Glass Holders](results/Spectra Data in Glass Holders.png)
-![Spectra in Plastic Holders](results/Spectra Data in Plastic Bags.png)
+![Spectra in Glass Holders](results/Spectra.png)
+![Spectra in Plastic Holders](results/Spectra2.png)
 
 ### PCA Plot
 ![PCA Plot](results/pca.png)
@@ -99,7 +99,7 @@ The work was conducted during an internship at **Si-Ware Systems** under the sup
 
 ### Calibration set photo
 ![Cal_set_plastic](results/sets2.jpg)
-![Cal_set_glass](results/sets.jpg)
+![Cal_set_glass](results/sets3.jpg)
 
 ---
 
