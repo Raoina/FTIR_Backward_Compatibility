@@ -87,12 +87,19 @@ The work was conducted during an internship at **Si-Ware Systems** under the sup
 ---
 
 ## 📷 Suggested Images to Include
-- **Spectra plots** (plastic vs glass)
-- **PCA plot** showing device clustering & outlier
-- **Model performance bar chart** (R² comparison)
-- **Calibration set photo** (if possible)
+### Spectra – Glass vs Plastic Holders
+![Spectra in Glass Holders](results/Spectra Data in Glass Holders.png)
+![Spectra in Plastic Holders](results/Spectra Data in Plastic Bags.png)
 
-Place them inside a `results/` folder and reference them in this README.
+### PCA Plot
+![PCA Plot](results/pca.png)
+
+### Preprocessing Data
+![data_after_preprocessng](results/preprocessing.png)
+
+### Calibration set photo
+![Cal_set_plastic](results/sets2.jpg)
+![Cal_set_glass](results/sets.jpg)
 
 ---
 
