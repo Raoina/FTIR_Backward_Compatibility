@@ -49,13 +49,25 @@ The work was conducted during an internship at **Si-Ware Systems** under the sup
   2. Standard Normal Variate (SNV) correction  
   3. Mean centering
 
-### 5. Modeling & Evaluation
+### 5. Modeling
 - **PLS regression** with different latent variables (5 → 7 → 9).
 - **Oversampling**: 3 measurements per sample to capture device variability.
 - **Cross-validation**: Venetian blinds method (15 segments).
 - **LODO (Leave-One-Device-Out)** testing for realistic cross-device assessment.
 
-### 6. PCA Analysis
+### 6. Evaluation
+- **First Trial Models**:
+  - Model 1 (Plastic, Bad Preprocessing) → Poor performance due to added complexity.
+  - Model 2 (Plastic, Good Preprocessing) → Slight improvement, but noise persisted.
+  - Model 3 (Glass, Good Preprocessing) → Better stability but still weak due to mixture design.
+- **Second Trial Models**:
+  - Glass holders, optimized preprocessing, oversampling (3× per sample).
+  - **PLS regression** with latent variables tuned (7–9).
+  - **Cross-validation**: Venetian blinds method (15 segments).
+  - **LODO (Leave-One-Device-Out)** testing for realistic cross-device assessment.
+
+
+### 7. PCA Analysis
 - PCA on mean spectra per device revealed one **outlier device** with a shift in **PC1 (92% variance)**.
 
 ---
@@ -86,7 +98,7 @@ Place them inside a `results/` folder and reference them in this README.
 
 ## 🚀 How to Use
 Since the modeling was performed using **SOLO**, to reproduce:
-1. Open the provided `.solo` project file (if shared).
+1. Open the provided `.mat` project file.
 2. Load the calibration spectra data.
 3. Apply the documented preprocessing (SNV + Mean Centering).
 4. Train the PLS model with **9 latent variables**.
@@ -95,10 +107,10 @@ Since the modeling was performed using **SOLO**, to reproduce:
 ---
 
 ## 👥 Team
-- **Rowina Reda**
-- **Salma Bassem Elfeel**  
+- **[Rowina Reda](https://www.linkedin.com/in/rowaina-reda/)**  
+- **[Salma Bassem Elfeel](https://www.linkedin.com/in/salmaelfeel/)**  
 
-**Supervisor:** Eng. **Samir Abo Zaid** – Si-Ware Systems
+**Supervisor:** Eng. **[Eng. Samir Abo Zaid](https://www.linkedin.com/in/samir-abozyd-04b02ba1/)** – Si-Ware Systems
 
 ---
 
